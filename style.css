@@ -1,0 +1,73 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  background-color: #ff9a4b;
+  height: 50px;
+  width: 100%;
+}
+
+.steps{
+  display: flex;
+  justify-content: center;
+  width: 960px;
+  margin: 50px auto;
+}
+
+.procedure:nth-child(even){
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.procedure{
+  width: 300px;
+  /*ここにpadding:10px;を入れて省略可能*/
+  background-color: #eeeeee;
+}
+
+.step{
+  background-color: #ff9a4b;
+  position: absolute;
+  color: #fff;
+}
+
+.step-image1{
+  height: 150px;
+  background-image: url(img/flow01.png);
+  background-position: center;
+  background-size: cover;
+  margin: 10px 10px 0 10px;
+}
+
+.step-image2{
+  height: 150px;
+  background-image: url(img/flow02.png);
+  background-position: center;
+  background-size: cover;
+  margin: 10px 10px 0 10px;
+}
+
+.step-image3{
+  height: 150px;
+  background-image: url(img/flow03.png);
+  background-position: center;
+  background-size: cover;
+  margin: 10px 10px 0 10px;
+}
+
+.title{
+  margin: 15px 10px 5px 10px;
+}
+
+p{
+  margin: 0 10px 10px 10px;
+}
+
+footer{
+  background-color: #aaaaaa;
+  height: 50px;
+  width: 100%;
+}
